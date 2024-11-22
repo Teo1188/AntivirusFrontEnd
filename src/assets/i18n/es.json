@@ -164,7 +164,8 @@
     "sapienciaTitle": "Alianza empresarial - Sapiencia",
     "sapienciaDescription": "Se enfoca en promover el empleo de mujeres y jóvenes, facilitando su acceso a oportunidades laborales dignas. A través de programas de capacitación en habilidades digitales, liderazgo y emprendimiento.",
     "comfamaTitle": "Alianza empresarial - Comfama",
-    "comfamaDescription": "Se centra en impulsar el empleo, brindándoles acceso a oportunidades laborales justas. A través de programas de formación en habilidades digitales, liderazgo y desarrollo empresarial."
+    "comfamaDescription": "Se centra en impulsar el empleo, brindándoles acceso a oportunidades laborales justas. A través de programas de formación en habilidades digitales, liderazgo y desarrollo empresarial.",
+    "noResults": "No hay oportunidades que coincidan con su búsqueda."
   },
   "formSearch": {
     "placeHolder": "Busca tu próxima oportunidad",

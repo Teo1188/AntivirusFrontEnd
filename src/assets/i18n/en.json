@@ -162,7 +162,8 @@
     "sapienciaTitle": "Business Alliance - Sapiencia",
     "sapienciaDescription": "Focuses on promoting employment for women and youth, facilitating their access to decent job opportunities. Through training programs in digital skills, leadership, and entrepreneurship.",
     "comfamaTitle": "Business Alliance - Comfama",
-    "comfamaDescription": "Centers on boosting employment, providing access to fair job opportunities. Through training programs in digital skills, leadership, and business development."
+    "comfamaDescription": "Centers on boosting employment, providing access to fair job opportunities. Through training programs in digital skills, leadership, and business development.",
+    "noResults": "No opportunities match for your search."
   },
   "formSearch": {
     "placeHolder": "Find your next opportunity",
