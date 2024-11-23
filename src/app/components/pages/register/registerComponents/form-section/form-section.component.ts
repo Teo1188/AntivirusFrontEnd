@@ -1,12 +1,14 @@
 import { Component, AfterViewInit, Renderer2, ElementRef } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
 import { SweetalertService } from 'src/app/sweetalert.service';
+import { SocialLoginComponent } from '../../../login/loginComponents/social-login/social-login.component';
 
 @Component({
   selector: 'app-form-section',
   templateUrl: './form-section.component.html',
   styleUrls: ['./form-section.component.css']
 })
+
 export class FormSectionComponent implements AfterViewInit {
 
   constructor(private renderer: Renderer2, private el: ElementRef, private authService: AuthService, private sweetalertService: SweetalertService) { }
@@ -58,5 +60,6 @@ export class FormSectionComponent implements AfterViewInit {
       }
     });
   }
+  
 
 }

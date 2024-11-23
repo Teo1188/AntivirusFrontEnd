@@ -102,4 +102,9 @@ export class NavbarComponent {
       searchInModal.classList.remove('hidden');
     }
   }
+
+  // Verificar si el usuario está autenticado
+  isLoggedIn(): boolean {
+    return !!localStorage.getItem('jwtToken');
+  }
 }

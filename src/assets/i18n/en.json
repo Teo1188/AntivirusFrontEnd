@@ -8,7 +8,8 @@
     "login": "Login",
     "search": "Search",
     "send": "Send",
-    "logOut" : "Log out"
+    "logOut" : "Log out",
+    "admin" : "Administrator"
   },
   "header": {
     "title": "Your future starts here!",

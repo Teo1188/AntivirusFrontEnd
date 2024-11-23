@@ -10,6 +10,7 @@
       <li *ngIf="isAuthenticated()">
         <a routerLink="/news" routerLinkActive="active-link" class="nav-link">{{ 'navbar.news' | transloco }}</a>
       </li>
+      
     </ul>
     <!-- Botón de menú hamburguesa para tablet/móvil -->
     <button class="md:hidden flex items-center" (click)="openModal()">

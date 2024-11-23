@@ -23,11 +23,13 @@ opportunidades: any[] = [];
     this.opportunitiesService.getOpportunities().subscribe({
       next: (response: any) => {
         console.log('Oportunidades: ', response);
-        this.opportunities = response;
+        this.opportunidades = response;
+        //this.opportunities = [...this.opportunities]; // Inicialmente, muestra todas las oportunidades
       },
       error: (error: { message: string; }) => {
         console.error('Error al cargar las oportunidades: ', error);
       }
+
     });
   }
 }

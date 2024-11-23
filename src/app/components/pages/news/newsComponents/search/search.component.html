@@ -1,7 +1,7 @@
 <div class="pt-20 dark:bg-[#0f1629]">
   <section
-    class="container mx-auto my-0  border border-gray-300 p-4 rounded-lg w-full sm:w-1/2 md:w-2/3 lg:w-3/4 dark:bg-[#283446]">
-    <div class="mb-3">
+    class="container mx-auto my-0 border bg-gray-100 border-gray-300 border-shadow-200 p-4 rounded-lg w-full sm:w-1/2 md:w-2/3 lg:w-3/4 dark:bg-[#283446]">
+    <div class="mb-3 focus:placeholder-transparent dark:placeholder-gray-400 dark:text-gray-300">
       <input [(ngModel)]="filters.nombre" type="text" class="w-full p-3 border rounded dark:bg-[#283446]"
         placeholder="{{ 'formSearch.placeHolder' | transloco }}">
     </div>
@@ -26,11 +26,11 @@
       </div>
     </div>
     <div class="flex justify-end space-x-4">
-      <button (click)="onFilter()" class="busqueda bg-yellow-500 text-white p-2 w-32 rounded">{{ 'formSearch.button1' | transloco }}</button>
-      <button (click)="resetFilters()" (click)="loadOpportunities()" class="bg-gray-200 p-2 rounded">{{ 'formSearch.button2' | transloco }}</button>
+      <button (click)="onFilter()" class="busqueda bg-yellow-500 text-white p-2 w-32 rounded transition duration-100 hover:scale-95">{{ 'formSearch.button1' | transloco }}</button>
+      <button (click)="resetFilters()" (click)="loadOpportunities()" class="bg-blue-500 text-white p-2 w-32 rounded transition duration-100 hover:scale-95 dark:text-white">{{ 'formSearch.button2' | transloco }}</button>
     </div>
   </section>
-
   <app-opportunity-cards [opportunities]="opportunities"></app-opportunity-cards>
 </div>
+
 

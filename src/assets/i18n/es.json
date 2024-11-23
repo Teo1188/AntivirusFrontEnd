@@ -8,7 +8,8 @@
     "login": "Ingresar",
     "search": "Buscar",
     "send": "Enviar",
-    "logOut" : "Cerrar Sesión"
+    "logOut" : "Cerrar Sesión",
+    "admin" : "Administrador"
   },
     "header": {
     "title": "¡Tu futuro inicia aquí!",

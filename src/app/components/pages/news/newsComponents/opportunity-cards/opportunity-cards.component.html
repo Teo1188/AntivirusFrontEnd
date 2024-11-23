@@ -2,9 +2,11 @@
   <h2 class="text-2xl text-blue-900 font-bold text-center mb-6 pt-10 pb-10 dark:text-[#12a6e8]">
     {{ 'studyChances.heading' | transloco }}
   </h2>
-  <div *ngIf="opportunities.length > 0; else noData" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-20 w-100 h-54 overflow-hidden">
+  
+  <div *ngIf="opportunities.length > 0; else noData" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-20 w-150 h-54">
     <app-opportunity-card *ngFor="let opportunity of opportunities"
       title="{{ opportunity.nombre | transloco }}"
+      institucion="{{ opportunity.institucionNombre | transloco }}"
       url="{{ opportunity.url | transloco }}"
       description="{{ opportunity.regionNombre | transloco }}">
     </app-opportunity-card>

@@ -85,7 +85,7 @@ export class SearchComponent implements OnInit {
 
   //Metodo para filtrar oportunidades
   onFilter(): void {
-    alert('si lo trajo' + this.filters.nombre + "\n" + this.filters.idRegion);
+    //alert('si lo trajo' + this.filters.nombre + "\n" + this.filters.idRegion);
     this.oportunidadesService.filtrarOportunidades(this.filters).subscribe({
       next: (response: any) => {
         console.log('Oportunidades filtradas: ', response);
