@@ -1,5 +1,8 @@
-<div class="bg-white p-4 rounded shadow-md dark:bg-[#283446] dark:text-[#a8afc4]">
-  <img [src]="imageSrc" class="w-full h-48 object-cover rounded mb-4" [alt]="imageAlt">
-  <h5 class="text-xl font-semibold mb-2">{{ title }}</h5>
-  <p>{{ description }}</p>
+<div class="card rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-lg dark:bg-[#1a2b40]">
+<div class="bg-white p-4 rounded shadow-md dark:bg-[#283446] dark:text-[#fff]">
+    <h1 class="text-xl font-semibold mb-2">{{ institucion }}</h1>
+    <h2 class="text-l mb-2 text-gray-700 dark:text-gray-300">{{ title }}</h2>
+    <a href="{{url}}" target="_blank" class="text-blue-500 hover:underline transition duration-300">{{url}}</a>
+    <p>{{  'formSearch.location' | transloco  }}: {{ description }}</p>
+  </div>
 </div>

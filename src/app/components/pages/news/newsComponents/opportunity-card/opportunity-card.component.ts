@@ -6,8 +6,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./opportunity-card.component.css']
 })
 export class OpportunityCardComponent {
-  @Input() imageSrc: string = '';
-  @Input() imageAlt: string = '';
   @Input() title: string = '';
+  @Input() institucion: string = '';
   @Input() description: string = '';
+  @Input() url: string = '';
 }
